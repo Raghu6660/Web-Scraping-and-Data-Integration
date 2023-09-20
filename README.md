@@ -7,9 +7,7 @@ Web Scraping and Data Integration for E-commerce Platform
 3. [Web Scraping Script](#web-scraping-script)
 4. [Data Transformation and Preparation](#data-transformation-and-preparation)
 5. [Database Integration](#database-integration)
-6. [Error Handling and Logging](#error-handling-and-logging)
-7. [Testing and Verification](#testing-and-verification)
-8. [Output: Sending Scraped Data](#output-sending-scraped-data)
+6. [Output: Sending Scraped Data](#output-sending-scraped-data)
 
 ## 1. Introduction
 
@@ -56,7 +54,7 @@ The scraped data is stored as a list of dictionaries, with each dictionary repre
 The script establishes a connection to a MongoDB database and inserts the scraped product data into a collection. Update the MongoDB connection string, database, and collection names as necessary.
 
 
-## 8. Output: Sending Scraped Data
+## 6. Output: Sending Scraped Data
 
 ### CSV Export
 
